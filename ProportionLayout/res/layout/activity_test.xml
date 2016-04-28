@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="#ff0000" >
+    	<com.sensetime.proportion.widget.ProportionLayout 
+    	    android:id="@+id/proporlayout"
+    	   	android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    	   	app:proportion_width="9"
+    	   	app:proportion_height="16"
+    	   	app:proportion_matchType="fitcenter"
+    	   	android:layout_centerInParent="true"
+    	   	android:background="@drawable/radio43"/>
+    	
+</RelativeLayout>
+	

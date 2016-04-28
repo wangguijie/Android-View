@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProportionLayout">
+        <attr name="proportion_width" format="integer" />
+        <attr name="proportion_height" format="integer" />
+        <attr name="proportion_matchType">
+            <enum name="matchWidth" value ="0"/>
+            <enum name="matchHeight" value ="1"/>
+            <enum name="centerInside" value ="2"/>
+            <enum name="fitcenter" value ="3"/>
+            <enum name="none" value ="8"/>
+        </attr>    
+    </declare-styleable>
+</resources>
+
